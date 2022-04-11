@@ -1,0 +1,85 @@
+body {
+    background-image: url(imagem/1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #329994;
+}
+
+.progresso {
+    margin: 300px auto;
+}
+
+.progresso img {
+    width: 80px;   
+    margin-bottom: 20px; 
+}
+
+ul {
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+}
+
+ul li .fa {
+    background: #ccc;
+    width: 16px;
+    height: 16px;
+    color: #FFF;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+ul li .fa::after {
+    content: '';
+    background: #ccc;
+    height: 5px;
+    width: 205px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 115px;
+    z-index: -1;
+
+}
+ul li .fa:hover{
+    background: #00e2d6;  
+    color: #fff;  
+    border-radius: 5px;  
+    box-shadow: 0 0 5px #00e2d6,  
+          0 0 25px #00e2d6,  
+          0 0 50px #00e2d6,  
+          0 0 100px #00e2d6;  
+}
+ul li:nth-child(3) .fa {
+    background: #148e14;
+
+}
+
+ul li:nth-child(3) .fa::after{
+    background: #148e14;
+
+}
+
+ul li:nth-child(1) .fa,
+ul li:nth-child(2) .fa {
+    background: #60aa97;
+}
+
+ul li:nth-child(1) .fa::after,
+ul li:nth-child(2) .fa::after {
+    background: #60aa97;
+}
+
+ul li:first-child .fa::after {
+    width: 105px;
+    left: 100px;
+}
+
+ul li:last-child .fa::after {
+    width: 105px;
+}
