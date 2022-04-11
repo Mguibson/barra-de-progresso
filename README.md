@@ -1,11 +1,10 @@
 
-##Projeto - Criação de uma Barra de Progresso 
 
-- O escopo do projeto é reproduzir o processo de compra de um livro.
-## Ferramentas Utilizadas
+## Projeto - Barra de Progresso
 
-* HTML
-* CSS
+-  escopo do projeto é reproduzir o processo de compra de um livro.
+
+
 
 
 ## Conceitos Utilizados
@@ -14,4 +13,10 @@
  - Criação de lista com Hover
  - Espaçamento entre imagens
  - Manipulação seletores 
+
+
+## Ferramentas Utilizadas
+
+* HTML
+* CSS
 
