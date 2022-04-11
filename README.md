@@ -1,5 +1,5 @@
 
-Projeto - Criação de uma Barra de Progresso 
+##Projeto - Criação de uma Barra de Progresso 
 
 - O escopo do projeto é reproduzir o processo de compra de um livro.
 ## Ferramentas Utilizadas
